@@ -1,6 +1,6 @@
 # CDIF-for-GGA: disaggregation vocabulary and 9a mapping
 
-Supplementary materials for *A Common Data Language for Tracking Global Climate Resilience* (Fakhruddin & Choi).
+Supplementary materials for *Mapping expert proposed GGA water indicators to the Cross Domain Interoperability Framework: metadata fit and disaggregation vocabulary design* (Fakhruddin & Choi).
 
 ## Contents
 - `vocab/gga-disaggregation.ttl` — candidate SKOS vocabulary: 19 concept schemes, 83 concepts (dimensions as Concept Schemes, values as coded concepts), derived from the free-text disaggregation column of the expert group indicator compilation (8 Sep 2025; UNFCCC technical report) and dual-reviewed (KOS specialist + climate domain expert). Base URI `https://w3id.org/cdif4gga/disagg/` is a placeholder pending w3id registration.
