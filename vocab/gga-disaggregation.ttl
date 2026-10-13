@@ -1,0 +1,811 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gga: <https://w3id.org/cdif4gga/disagg/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+gga: a skos:Collection ;
+    dct:description "Candidate vocabulary of recurring disaggregation dimensions and values for the Global Goal on Adaptation indicators, derived from the expert group compilation of 8 September 2025. Offered as a candidate input to the metadata work mandated to the UNFCCC Subsidiary Bodies; authority over the vocabulary rests with the UNFCCC process."@en ;
+    dct:modified "2026-10-12"^^xsd:date ;
+    skos:member gga:climate-hazards,
+        gga:economic-sectors,
+        gga:ecosystem-types,
+        gga:employment-formality,
+        gga:ews-components,
+        gga:finance-channel,
+        gga:finance-concessionality,
+        gga:finance-instrument,
+        gga:finance-origin-source,
+        gga:geographic,
+        gga:heritage,
+        gga:knowledge-participation,
+        gga:moi-support-activities,
+        gga:planning-instruments,
+        gga:reporting-entities,
+        gga:social-categories,
+        gga:support-perspective,
+        gga:temporal,
+        gga:thematic-targets ;
+    skos:prefLabel "GGA disaggregation dimensions (candidate)"@en .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/drought> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "drought"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/flood> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "flood"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/heatwave> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "heatwave"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/landslide> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "landslide"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/sea-level-rise> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "sea level rise"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/storm-surge> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Listed among cyclone-related phenomena in the HIPs; standalone HIP code to be confirmed"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "storm surge"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/tropical-cyclone> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "tropical cyclone"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/climate-hazards/wildfire> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:climate-hazards ;
+    skos:prefLabel "wildfire"@en ;
+    skos:topConceptOf gga:climate-hazards .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/agroforestry> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "agroforestry"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/aquaculture> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "aquaculture"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/crop> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "crop"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/energy> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "energy"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/fisheries> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "fisheries"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/forestry> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "forestry"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/livestock> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "livestock"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/economic-sectors/transport> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:economic-sectors ;
+    skos:prefLabel "transport"@en ;
+    skos:topConceptOf gga:economic-sectors .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/coastal> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "coastal"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/inland-waters> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "inland waters"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/marine> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "marine"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/mountain> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Not an IUCN GET realm; aligned at functional-group level"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "mountain"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/nature-based-solutions> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "UNEA resolution 5/5 (2022) definition"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "nature-based solutions"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/other-effective-area-based-conservation-measures-oecm> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "CBD decision 14/8 (2018) definition"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "other effective area-based conservation measures (OECM)"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/ecosystem-types/terrestrial> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:ecosystem-types ;
+    skos:prefLabel "terrestrial"@en ;
+    skos:topConceptOf gga:ecosystem-types .
+
+<https://w3id.org/cdif4gga/disagg/employment-formality/formal> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:employment-formality ;
+    skos:prefLabel "formal"@en ;
+    skos:topConceptOf gga:employment-formality .
+
+<https://w3id.org/cdif4gga/disagg/employment-formality/informal> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:employment-formality ;
+    skos:prefLabel "informal"@en ;
+    skos:topConceptOf gga:employment-formality .
+
+gga:ews-components a skos:ConceptScheme ;
+    skos:editorialNote "Components per the four MHEWS pillars; target reference kept separate per domain review"@en ;
+    skos:prefLabel "Early warning system components"@en .
+
+<https://w3id.org/cdif4gga/disagg/finance-channel/bilateral> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a channel value. Document earmarked finance through multilateral bodies separately; DAC classification differs from a simple institutional channel label. Reference: 18/CMA.1 Annex 121(d), 123; OECD 2026 Chapter 1 paragraphs 10 to 12"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-channel ;
+    skos:prefLabel "bilateral"@en ;
+    skos:topConceptOf gga:finance-channel .
+
+<https://w3id.org/cdif4gga/disagg/finance-channel/multilateral> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a channel value, not instrument or finance origin. BTR channel and DAC bilateral or multilateral classification are not automatically equivalent. Reference: 18/CMA.1 Annex 121(d), 124; OECD 2026 Chapter 1 paragraphs 10 to 12"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-channel ;
+    skos:prefLabel "multilateral"@en ;
+    skos:topConceptOf gga:finance-channel .
+
+<https://w3id.org/cdif4gga/disagg/finance-concessionality/concessional> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Split from \"concessional loan\" per domain review; record the applied concessionality rule"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-concessionality ;
+    skos:prefLabel "concessional"@en ;
+    skos:topConceptOf gga:finance-concessionality .
+
+<https://w3id.org/cdif4gga/disagg/finance-concessionality/non-concessional> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Split from \"non-concessional loan\" per domain review"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-concessionality ;
+    skos:prefLabel "non-concessional"@en ;
+    skos:topConceptOf gga:finance-concessionality .
+
+<https://w3id.org/cdif4gga/disagg/finance-instrument/equity> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep the broad instrument value. DAC/CRS 510 Common equity is a narrower example; do not use it for preferred equity or every equity holding. Reference: 18/CMA.1 Annex 121(f); OECD 2026 Chapter 1 paragraph 44; IATI replicated DAC Finance Type 510"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-instrument ;
+    skos:prefLabel "equity"@en ;
+    skos:topConceptOf gga:finance-instrument .
+
+<https://w3id.org/cdif4gga/disagg/finance-instrument/grant> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as an instrument value. DAC/CRS 110 Standard grant is an illustrative narrower correspondence, not every grant related operation. Reference: 18/CMA.1 Annex 121(f); OECD 2026 Chapter 1 paragraph 35; IATI replicated DAC Finance Type 110"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-instrument ;
+    skos:prefLabel "grant"@en ;
+    skos:topConceptOf gga:finance-instrument .
+
+<https://w3id.org/cdif4gga/disagg/finance-instrument/guarantee> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as an instrument. Record the exposure or contingent amount and avoid treating it as an ordinary disbursement. Select a specific DAC subtype only when known. Reference: 18/CMA.1 Annex 121(f), 121(m); OECD 2026 Chapter 1 paragraph 46; IATI Finance Type 1100 heading and 1101 to 1108 subtypes"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-instrument ;
+    skos:prefLabel "guarantee"@en ;
+    skos:topConceptOf gga:finance-instrument .
+
+<https://w3id.org/cdif4gga/disagg/finance-instrument/insurance> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as an instrument with scope stated. Separate premium, coverage and payout; do not add insured face amount to ordinary finance flows. Reference: 18/CMA.1 Annex 121(f); OECD 2026 Chapter 1 paragraph 46. DAC heading 1100 combines guarantees and insurance, not an exact insurance code."@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-instrument ;
+    skos:prefLabel "insurance"@en ;
+    skos:topConceptOf gga:finance-instrument .
+
+<https://w3id.org/cdif4gga/disagg/finance-instrument/loan> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Derived by splitting \"concessional/non-concessional loan\" into instrument (loan) plus concessionality, per domain review"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-instrument ;
+    skos:prefLabel "loan"@en ;
+    skos:topConceptOf gga:finance-instrument .
+
+<https://w3id.org/cdif4gga/disagg/finance-origin-source/domestic> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep with a reference country and origin definition. Domestic is not synonymous with public finance; it is not an instrument. Reference: OECD 2026 Chapter 1 paragraphs 9 and 32; OECD classifications Mobilisation origin. Context reference, not a universal BTR code."@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-origin-source ;
+    skos:prefLabel "domestic"@en ;
+    skos:topConceptOf gga:finance-origin-source .
+
+<https://w3id.org/cdif4gga/disagg/finance-origin-source/international> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep only with a reference country and explicit scope. International origin is not equivalent to multilateral channel or private mobilisation. Reference: OECD 2026 Chapter 1 paragraphs 9 and 32; source indicator context must govern nonfinance uses."@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-origin-source ;
+    skos:prefLabel "international"@en ;
+    skos:topConceptOf gga:finance-origin-source .
+
+<https://w3id.org/cdif4gga/disagg/finance-origin-source/private-source> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Split from \"international private finance\": origin (international) and source (private) are distinct axes, per domain review"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:finance-origin-source ;
+    skos:prefLabel "private source"@en ;
+    skos:topConceptOf gga:finance-origin-source .
+
+<https://w3id.org/cdif4gga/disagg/geographic/global> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "global"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/groundwater> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Relabeled from \"aquifers\" to follow SDG 6.3.2 water-body categories (rivers, lakes, groundwater)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "groundwater"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/lake> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "lake"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/local> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "local"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/national> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "national"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/regional> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "regional"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/river> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "river"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/rural> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "rural"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/subnational> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "subnational"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/traditional-territories> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a territorial dimension or attribute and move to Geography. Definition and use must respect community custodianship and national context. Reference: UNDRIP Article 26; expert samples 9d07 and 9d09. Supporting rights context, not a ready made codelist. (moved to Geographic per domain review)"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "traditional territories"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/transboundary> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Qualifier concept (basin/risk), SDG 6.5.2 context"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "transboundary"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/geographic/urban> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:geographic ;
+    skos:prefLabel "urban"@en ;
+    skos:topConceptOf gga:geographic .
+
+<https://w3id.org/cdif4gga/disagg/heritage/intangible-cultural-heritage-element> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a heritage category with the reporting unit defined. Classification should involve the relevant communities. Reference: UNESCO 2003 Convention Articles 2, 11(b) and 15"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:heritage ;
+    skos:prefLabel "intangible cultural heritage element"@en ;
+    skos:topConceptOf gga:heritage .
+
+<https://w3id.org/cdif4gga/disagg/heritage/internationally-listed> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as designation status only with the named list and assessment date. It is not proof that all cultural heritage is internationally listed. Reference: UNESCO 2003 Convention Articles 16 and 17 for intangible heritage lists; full source context governs tangible lists"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:heritage ;
+    skos:prefLabel "internationally listed"@en ;
+    skos:topConceptOf gga:heritage .
+
+<https://w3id.org/cdif4gga/disagg/knowledge-participation/indigenous-building-practices> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a practice attribute with a culturally appropriate definition and consent. Do not claim exact equivalence to traditional craftsmanship. Check Freq 2 versus one sampled indicator. Reference: 12/CMA.7 Annex paragraph 9; UNDRIP Article 31; UNESCO 2003 Convention Article 2(2)(e) is broader supporting context"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:knowledge-participation ;
+    skos:prefLabel "indigenous building practices"@en ;
+    skos:topConceptOf gga:knowledge-participation .
+
+<https://w3id.org/cdif4gga/disagg/knowledge-participation/participatory-development-process> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a participation attribute. Define observable criteria and categories; it is not a policy instrument type. Reference: Expert technical report Section III paragraphs 25 and 31; 12/CMA.7 paragraph 10"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:knowledge-participation ;
+    skos:prefLabel "participatory development process"@en ;
+    skos:topConceptOf gga:knowledge-participation .
+
+<https://w3id.org/cdif4gga/disagg/knowledge-participation/traditional-local-and-indigenous-peoples-knowledge-and-practices> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Recovered full phrase per domain review (the truncated extraction \"guided by traditional\" was excluded); decision-text phrase"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:knowledge-participation ;
+    skos:prefLabel "traditional, local and Indigenous Peoples’ knowledge and practices"@en ;
+    skos:topConceptOf gga:knowledge-participation .
+
+<https://w3id.org/cdif4gga/disagg/moi-support-activities/adaptation-technology-development> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a support activity within Finance and means of implementation. Development and transfer are related but not interchangeable. Reference: 12/CMA.7 Annex 12(e); 18/CMA.1 Annex 127, 136, 138"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:moi-support-activities ;
+    skos:prefLabel "adaptation technology development"@en ;
+    skos:topConceptOf gga:moi-support-activities .
+
+<https://w3id.org/cdif4gga/disagg/moi-support-activities/capacity-building-component> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a component dimension in Finance and means of implementation. Component values need definitions; the label alone is not a completed codelist. Reference: 12/CMA.7 Annex 12(f); 18/CMA.1 Annex 129, 140, 142"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:moi-support-activities ;
+    skos:prefLabel "capacity-building component"@en ;
+    skos:topConceptOf gga:moi-support-activities .
+
+<https://w3id.org/cdif4gga/disagg/planning-instruments/policy> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a planning instrument type. Explain overlap with plan and strategy rather than merging them without a rule. Reference: 12/CMA.7 Annex 11(a); expert compilation samples 10b02 and 10b06"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:planning-instruments ;
+    skos:prefLabel "policy"@en ;
+    skos:topConceptOf gga:planning-instruments .
+
+<https://w3id.org/cdif4gga/disagg/planning-instruments/strategy> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a planning instrument type distinct from policy and plan, with overlaps documented. Reference: 12/CMA.7 Annex 11(a); expert samples 10b02 and 10b06"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:planning-instruments ;
+    skos:prefLabel "strategy"@en ;
+    skos:topConceptOf gga:planning-instruments .
+
+<https://w3id.org/cdif4gga/disagg/reporting-entities/direct-access-entities> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as an entity category associated with direct access. It is not a financial instrument and does not replace a recipient or provider identifier. Reference: GCF in Brief: Direct access, 1 December 2021"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:reporting-entities ;
+    skos:prefLabel "direct access entities"@en ;
+    skos:topConceptOf gga:reporting-entities .
+
+<https://w3id.org/cdif4gga/disagg/reporting-entities/party> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as the reporting entity dimension, not an instrument value. Use separate jurisdiction identifiers; no country code is assigned here. Reference: 12/CMA.7 paragraphs 11 to 12; expert samples 9e06 and 9e07"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:reporting-entities ;
+    skos:prefLabel "Party"@en ;
+    skos:topConceptOf gga:reporting-entities .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/age> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "age"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/children> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "children"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/disability> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "disability"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/income> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "income"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/indigenous-peoples> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "indigenous peoples"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/local-communities> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Merged with \"communities\"; UNFCCC decision-text phrase"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "local communities"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/migrants> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "migrants"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/older-persons> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "older persons"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/poverty-status> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Relabeled from \"poor\" (SDG convention)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "poverty status"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/refugees> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "refugees"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/sex> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "sex"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/women> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "women"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/social-categories/youth> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:social-categories ;
+    skos:prefLabel "youth"@en ;
+    skos:topConceptOf gga:social-categories .
+
+<https://w3id.org/cdif4gga/disagg/support-perspective/mobilised> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep as a mobilisation classification, not a disjoint third perspective beside provided and received. Define attribution and prevent double counting. Reference: 18/CMA.1 Annex 125, 121(m); OECD 2026 Chapter 1 paragraph 32 and Chapter 3 Section IV"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:support-perspective ;
+    skos:prefLabel "mobilised"@en ;
+    skos:topConceptOf gga:support-perspective .
+
+<https://w3id.org/cdif4gga/disagg/support-perspective/provided> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep for provider reporting. Distinguish committed and disbursed status. Do not sum provided and received views of the same support. Reference: 18/CMA.1 Annex Chapter V, paragraphs 118 and 123 to 124; 121(c), 121(m)"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:support-perspective ;
+    skos:prefLabel "provided"@en ;
+    skos:topConceptOf gga:support-perspective .
+
+<https://w3id.org/cdif4gga/disagg/support-perspective/received> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "Keep for recipient reporting. Specify receipt and period. A received amount is not an additional instrument or a second flow to add to provider reporting. Reference: 18/CMA.1 Annex Chapter VI, paragraph 134; 12/CMA.7 Annex 12(d)"@en ;
+    skos:historyNote "Accepted on climate-domain review (October 2026)"@en ;
+    skos:inScheme gga:support-perspective ;
+    skos:prefLabel "received"@en ;
+    skos:topConceptOf gga:support-perspective .
+
+gga:temporal a skos:ConceptScheme ;
+    skos:editorialNote "Timeframe of the measure or reported value; enumeration to be developed"@en ;
+    skos:prefLabel "Temporal dimensions"@en .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/cultural-heritage> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "cultural heritage"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/ecosystems-and-biodiversity> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "ecosystems and biodiversity"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/food-and-agriculture> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "food and agriculture"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/health> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "health"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/infrastructure-and-human-settlements> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "infrastructure and human settlements"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/poverty-eradication-and-livelihoods> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "poverty eradication and livelihoods"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+<https://w3id.org/cdif4gga/disagg/thematic-targets/water> a skos:Concept ;
+    dct:source "Expert group indicator compilation, 8 September 2025 (free-text disaggregation column)"@en ;
+    skos:editorialNote "One of the seven thematic targets, decision 2/CMA.5 paragraph 9"@en ;
+    skos:historyNote "Verified against established vocabulary or accepted on KOS review"@en ;
+    skos:inScheme gga:thematic-targets ;
+    skos:prefLabel "water"@en ;
+    skos:topConceptOf gga:thematic-targets .
+
+gga:employment-formality a skos:ConceptScheme ;
+    skos:editorialNote "Formality of employment (ILO usage)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/employment-formality/formal>,
+        <https://w3id.org/cdif4gga/disagg/employment-formality/informal> ;
+    skos:prefLabel "Employment formality"@en .
+
+gga:finance-channel a skos:ConceptScheme ;
+    skos:editorialNote "Channel of support; BTR usage distinguishes channel from instrument (18/CMA.1 Annex para 121(d))"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/finance-channel/bilateral>,
+        <https://w3id.org/cdif4gga/disagg/finance-channel/multilateral> ;
+    skos:prefLabel "Finance channel"@en .
+
+gga:finance-concessionality a skos:ConceptScheme ;
+    skos:editorialNote "Separate axis per BTR practice (18/CMA.1 Annex para 121(f)); record the applied rule"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/finance-concessionality/concessional>,
+        <https://w3id.org/cdif4gga/disagg/finance-concessionality/non-concessional> ;
+    skos:prefLabel "Concessionality"@en .
+
+gga:heritage a skos:ConceptScheme ;
+    skos:editorialNote "Heritage categories and designation status; designation status requires the named list and assessment date; the list itself is a separate dimension (UNESCO 2003)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/heritage/intangible-cultural-heritage-element>,
+        <https://w3id.org/cdif4gga/disagg/heritage/internationally-listed> ;
+    skos:prefLabel "Cultural heritage dimensions"@en .
+
+gga:moi-support-activities a skos:ConceptScheme ;
+    skos:editorialNote "Support activity and component dimensions (technology development, capacity-building components); enumerations to be developed"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/moi-support-activities/adaptation-technology-development>,
+        <https://w3id.org/cdif4gga/disagg/moi-support-activities/capacity-building-component> ;
+    skos:prefLabel "Means-of-implementation support activities"@en .
+
+gga:planning-instruments a skos:ConceptScheme ;
+    skos:editorialNote "Policy, strategy and related instrument types; overlaps documented rather than forced disjoint"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/planning-instruments/policy>,
+        <https://w3id.org/cdif4gga/disagg/planning-instruments/strategy> ;
+    skos:prefLabel "Planning instrument types"@en .
+
+gga:reporting-entities a skos:ConceptScheme ;
+    skos:editorialNote "Entity categories relevant to support reporting (e.g., direct access entities under the GCF modality)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/reporting-entities/direct-access-entities>,
+        <https://w3id.org/cdif4gga/disagg/reporting-entities/party> ;
+    skos:prefLabel "Reporting entity categories"@en .
+
+gga:finance-origin-source a skos:ConceptScheme ;
+    skos:editorialNote "Origin (domestic/international, with reference country) and source (public/private) are distinct; split per domain review"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/finance-origin-source/domestic>,
+        <https://w3id.org/cdif4gga/disagg/finance-origin-source/international>,
+        <https://w3id.org/cdif4gga/disagg/finance-origin-source/private-source> ;
+    skos:prefLabel "Finance origin and source"@en .
+
+gga:knowledge-participation a skos:ConceptScheme ;
+    skos:editorialNote "Attributes for knowledge systems and participatory processes; definitions require culturally appropriate governance (UNDRIP; CARE principles)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/knowledge-participation/indigenous-building-practices>,
+        <https://w3id.org/cdif4gga/disagg/knowledge-participation/participatory-development-process>,
+        <https://w3id.org/cdif4gga/disagg/knowledge-participation/traditional-local-and-indigenous-peoples-knowledge-and-practices> ;
+    skos:prefLabel "Knowledge systems and participation attributes"@en .
+
+gga:support-perspective a skos:ConceptScheme ;
+    skos:editorialNote "Provider vs recipient reporting perspectives on the same flow — not separate flows to be summed; mobilised is a mobilisation/attribution classification (18/CMA.1 Annex para 121(m))"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/support-perspective/mobilised>,
+        <https://w3id.org/cdif4gga/disagg/support-perspective/provided>,
+        <https://w3id.org/cdif4gga/disagg/support-perspective/received> ;
+    skos:prefLabel "Support reporting perspective"@en .
+
+gga:finance-instrument a skos:ConceptScheme ;
+    skos:editorialNote "Instrument values; DAC/CRS and IATI codes are illustrative references, not automatic SKOS equivalences (per domain review)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/finance-instrument/equity>,
+        <https://w3id.org/cdif4gga/disagg/finance-instrument/grant>,
+        <https://w3id.org/cdif4gga/disagg/finance-instrument/guarantee>,
+        <https://w3id.org/cdif4gga/disagg/finance-instrument/insurance>,
+        <https://w3id.org/cdif4gga/disagg/finance-instrument/loan> ;
+    skos:prefLabel "Financial instrument"@en .
+
+gga:ecosystem-types a skos:ConceptScheme ;
+    skos:editorialNote "Ecological categories; alignment target is the IUCN Global Ecosystem Typology (realm/biome/functional group are GET hierarchy levels, not values here)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/ecosystem-types/coastal>,
+        <https://w3id.org/cdif4gga/disagg/ecosystem-types/inland-waters>,
+        <https://w3id.org/cdif4gga/disagg/ecosystem-types/marine>,
+        <https://w3id.org/cdif4gga/disagg/ecosystem-types/mountain>,
+        <https://w3id.org/cdif4gga/disagg/ecosystem-types/nature-based-solutions>,
+        <https://w3id.org/cdif4gga/disagg/ecosystem-types/other-effective-area-based-conservation-measures-oecm>,
+        <https://w3id.org/cdif4gga/disagg/ecosystem-types/terrestrial> ;
+    skos:prefLabel "Ecosystem types"@en .
+
+gga:thematic-targets a skos:ConceptScheme ;
+    skos:editorialNote "The seven thematic targets of the UAE Framework (decision 2/CMA.5 para 9) — a policy target axis, distinct from ecosystem types per domain review"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/thematic-targets/cultural-heritage>,
+        <https://w3id.org/cdif4gga/disagg/thematic-targets/ecosystems-and-biodiversity>,
+        <https://w3id.org/cdif4gga/disagg/thematic-targets/food-and-agriculture>,
+        <https://w3id.org/cdif4gga/disagg/thematic-targets/health>,
+        <https://w3id.org/cdif4gga/disagg/thematic-targets/infrastructure-and-human-settlements>,
+        <https://w3id.org/cdif4gga/disagg/thematic-targets/poverty-eradication-and-livelihoods>,
+        <https://w3id.org/cdif4gga/disagg/thematic-targets/water> ;
+    skos:prefLabel "Thematic targets"@en .
+
+gga:climate-hazards a skos:ConceptScheme ;
+    skos:editorialNote "Derived top-down from the UNDRR-ISC Hazard Information Profiles; verified against hazard lists in indicator definitions"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/climate-hazards/drought>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/flood>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/heatwave>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/landslide>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/sea-level-rise>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/storm-surge>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/tropical-cyclone>,
+        <https://w3id.org/cdif4gga/disagg/climate-hazards/wildfire> ;
+    skos:prefLabel "Climate-related hazards"@en .
+
+gga:economic-sectors a skos:ConceptScheme ;
+    skos:editorialNote "Sector values; implementation may cite ISIC Rev.5 divisions (illustrative, not automatic equivalences)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/economic-sectors/agroforestry>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/aquaculture>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/crop>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/energy>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/fisheries>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/forestry>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/livestock>,
+        <https://w3id.org/cdif4gga/disagg/economic-sectors/transport> ;
+    skos:prefLabel "Economic sectors"@en .
+
+gga:geographic a skos:ConceptScheme ;
+    skos:editorialNote "Administrative tiers, settlement type, water bodies, basin qualifiers; includes traditional territories per domain review"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/geographic/global>,
+        <https://w3id.org/cdif4gga/disagg/geographic/groundwater>,
+        <https://w3id.org/cdif4gga/disagg/geographic/lake>,
+        <https://w3id.org/cdif4gga/disagg/geographic/local>,
+        <https://w3id.org/cdif4gga/disagg/geographic/national>,
+        <https://w3id.org/cdif4gga/disagg/geographic/regional>,
+        <https://w3id.org/cdif4gga/disagg/geographic/river>,
+        <https://w3id.org/cdif4gga/disagg/geographic/rural>,
+        <https://w3id.org/cdif4gga/disagg/geographic/subnational>,
+        <https://w3id.org/cdif4gga/disagg/geographic/traditional-territories>,
+        <https://w3id.org/cdif4gga/disagg/geographic/transboundary>,
+        <https://w3id.org/cdif4gga/disagg/geographic/urban> ;
+    skos:prefLabel "Geographic units and qualifiers"@en .
+
+gga:social-categories a skos:ConceptScheme ;
+    skos:editorialNote "Standard social disaggregation dimensions (IAEG-SDGs minimum set)"@en ;
+    skos:hasTopConcept <https://w3id.org/cdif4gga/disagg/social-categories/age>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/children>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/disability>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/income>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/indigenous-peoples>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/local-communities>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/migrants>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/older-persons>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/poverty-status>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/refugees>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/sex>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/women>,
+        <https://w3id.org/cdif4gga/disagg/social-categories/youth> ;
+    skos:prefLabel "Social categories"@en .
+

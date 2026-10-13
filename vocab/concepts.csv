@@ -1,0 +1,84 @@
+scheme,prefLabel,status,note
+social-categories,sex,resolved,
+social-categories,age,resolved,
+social-categories,income,resolved,
+social-categories,disability,resolved,
+social-categories,migrants,resolved,
+social-categories,refugees,resolved,
+social-categories,children,resolved,
+social-categories,youth,resolved,
+social-categories,women,resolved,
+social-categories,older persons,resolved,
+social-categories,indigenous peoples,resolved,
+social-categories,local communities,resolved,"Merged with ""communities""; UNFCCC decision-text phrase"
+social-categories,poverty status,resolved,"Relabeled from ""poor"" (SDG convention)"
+geographic,national,resolved,
+geographic,subnational,resolved,
+geographic,local,resolved,
+geographic,regional,resolved,
+geographic,global,resolved,
+geographic,urban,resolved,
+geographic,rural,resolved,
+geographic,river,resolved,
+geographic,lake,resolved,
+geographic,groundwater,resolved,"Relabeled from ""aquifers"" to follow SDG 6.3.2 water-body categories (rivers, lakes, groundwater)"
+geographic,transboundary,resolved,"Qualifier concept (basin/risk), SDG 6.5.2 context"
+climate-hazards,flood,resolved,
+climate-hazards,drought,resolved,
+climate-hazards,tropical cyclone,resolved,
+climate-hazards,storm surge,resolved,Listed among cyclone-related phenomena in the HIPs; standalone HIP code to be confirmed
+climate-hazards,sea level rise,resolved,
+climate-hazards,heatwave,resolved,
+climate-hazards,wildfire,resolved,
+climate-hazards,landslide,resolved,
+ecosystem-types,terrestrial,resolved,
+ecosystem-types,inland waters,resolved,
+ecosystem-types,marine,resolved,
+ecosystem-types,coastal,resolved,
+ecosystem-types,mountain,resolved,Not an IUCN GET realm; aligned at functional-group level
+ecosystem-types,nature-based solutions,resolved,UNEA resolution 5/5 (2022) definition
+ecosystem-types,other effective area-based conservation measures (OECM),resolved,CBD decision 14/8 (2018) definition
+economic-sectors,crop,resolved,
+economic-sectors,livestock,resolved,
+economic-sectors,fisheries,resolved,
+economic-sectors,aquaculture,resolved,
+economic-sectors,forestry,resolved,
+economic-sectors,agroforestry,resolved,
+economic-sectors,transport,resolved,
+economic-sectors,energy,resolved,
+employment-formality,formal,resolved,
+employment-formality,informal,resolved,
+thematic-targets,water,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+thematic-targets,food and agriculture,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+thematic-targets,health,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+thematic-targets,ecosystems and biodiversity,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+thematic-targets,infrastructure and human settlements,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+thematic-targets,poverty eradication and livelihoods,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+thematic-targets,cultural heritage,resolved,"One of the seven thematic targets, decision 2/CMA.5 paragraph 9"
+finance-channel,bilateral,domain-reviewed,"Keep as a channel value. Document earmarked finance through multilateral bodies separately; DAC classification differs from a simple institutional channel label. Reference: 18/CMA.1 Annex 121(d), 123; OECD 2026 Chapter 1 paragraphs 10 to 12"
+finance-channel,multilateral,domain-reviewed,"Keep as a channel value, not instrument or finance origin. BTR channel and DAC bilateral or multilateral classification are not automatically equivalent. Reference: 18/CMA.1 Annex 121(d), 124; OECD 2026 Chapter 1 paragraphs 10 to 12"
+finance-instrument,grant,domain-reviewed,"Keep as an instrument value. DAC/CRS 110 Standard grant is an illustrative narrower correspondence, not every grant related operation. Reference: 18/CMA.1 Annex 121(f); OECD 2026 Chapter 1 paragraph 35; IATI replicated DAC Finance Type 110"
+finance-instrument,equity,domain-reviewed,Keep the broad instrument value. DAC/CRS 510 Common equity is a narrower example; do not use it for preferred equity or every equity holding. Reference: 18/CMA.1 Annex 121(f); OECD 2026 Chapter 1 paragraph 44; IATI replicated DAC Finance Type 510
+finance-instrument,guarantee,domain-reviewed,"Keep as an instrument. Record the exposure or contingent amount and avoid treating it as an ordinary disbursement. Select a specific DAC subtype only when known. Reference: 18/CMA.1 Annex 121(f), 121(m); OECD 2026 Chapter 1 paragraph 46; IATI Finance Type 1100 heading and 1101 to 1108 subtypes"
+finance-instrument,insurance,domain-reviewed,"Keep as an instrument with scope stated. Separate premium, coverage and payout; do not add insured face amount to ordinary finance flows. Reference: 18/CMA.1 Annex 121(f); OECD 2026 Chapter 1 paragraph 46. DAC heading 1100 combines guarantees and insurance, not an exact insurance code."
+finance-instrument,loan,domain-reviewed,"Derived by splitting ""concessional/non-concessional loan"" into instrument (loan) plus concessionality, per domain review"
+finance-concessionality,concessional,domain-reviewed,"Split from ""concessional loan"" per domain review; record the applied concessionality rule"
+finance-concessionality,non-concessional,domain-reviewed,"Split from ""non-concessional loan"" per domain review"
+finance-origin-source,domestic,domain-reviewed,"Keep with a reference country and origin definition. Domestic is not synonymous with public finance; it is not an instrument. Reference: OECD 2026 Chapter 1 paragraphs 9 and 32; OECD classifications Mobilisation origin. Context reference, not a universal BTR code."
+finance-origin-source,international,domain-reviewed,Keep only with a reference country and explicit scope. International origin is not equivalent to multilateral channel or private mobilisation. Reference: OECD 2026 Chapter 1 paragraphs 9 and 32; source indicator context must govern nonfinance uses.
+finance-origin-source,private source,domain-reviewed,"Split from ""international private finance"": origin (international) and source (private) are distinct axes, per domain review"
+support-perspective,provided,domain-reviewed,"Keep for provider reporting. Distinguish committed and disbursed status. Do not sum provided and received views of the same support. Reference: 18/CMA.1 Annex Chapter V, paragraphs 118 and 123 to 124; 121(c), 121(m)"
+support-perspective,received,domain-reviewed,"Keep for recipient reporting. Specify receipt and period. A received amount is not an additional instrument or a second flow to add to provider reporting. Reference: 18/CMA.1 Annex Chapter VI, paragraph 134; 12/CMA.7 Annex 12(d)"
+support-perspective,mobilised,domain-reviewed,"Keep as a mobilisation classification, not a disjoint third perspective beside provided and received. Define attribution and prevent double counting. Reference: 18/CMA.1 Annex 125, 121(m); OECD 2026 Chapter 1 paragraph 32 and Chapter 3 Section IV"
+reporting-entities,direct access entities,domain-reviewed,"Keep as an entity category associated with direct access. It is not a financial instrument and does not replace a recipient or provider identifier. Reference: GCF in Brief: Direct access, 1 December 2021"
+reporting-entities,Party,domain-reviewed,"Keep as the reporting entity dimension, not an instrument value. Use separate jurisdiction identifiers; no country code is assigned here. Reference: 12/CMA.7 paragraphs 11 to 12; expert samples 9e06 and 9e07"
+planning-instruments,policy,domain-reviewed,Keep as a planning instrument type. Explain overlap with plan and strategy rather than merging them without a rule. Reference: 12/CMA.7 Annex 11(a); expert compilation samples 10b02 and 10b06
+planning-instruments,strategy,domain-reviewed,"Keep as a planning instrument type distinct from policy and plan, with overlaps documented. Reference: 12/CMA.7 Annex 11(a); expert samples 10b02 and 10b06"
+moi-support-activities,adaptation technology development,domain-reviewed,"Keep as a support activity within Finance and means of implementation. Development and transfer are related but not interchangeable. Reference: 12/CMA.7 Annex 12(e); 18/CMA.1 Annex 127, 136, 138"
+moi-support-activities,capacity-building component,domain-reviewed,"Keep as a component dimension in Finance and means of implementation. Component values need definitions; the label alone is not a completed codelist. Reference: 12/CMA.7 Annex 12(f); 18/CMA.1 Annex 129, 140, 142"
+heritage,intangible cultural heritage element,domain-reviewed,"Keep as a heritage category with the reporting unit defined. Classification should involve the relevant communities. Reference: UNESCO 2003 Convention Articles 2, 11(b) and 15"
+heritage,internationally listed,domain-reviewed,Keep as designation status only with the named list and assessment date. It is not proof that all cultural heritage is internationally listed. Reference: UNESCO 2003 Convention Articles 16 and 17 for intangible heritage lists; full source context governs tangible lists
+geographic,traditional territories,domain-reviewed,"Keep as a territorial dimension or attribute and move to Geography. Definition and use must respect community custodianship and national context. Reference: UNDRIP Article 26; expert samples 9d07 and 9d09. Supporting rights context, not a ready made codelist. (moved to Geographic per domain review)"
+knowledge-participation,indigenous building practices,domain-reviewed,Keep as a practice attribute with a culturally appropriate definition and consent. Do not claim exact equivalence to traditional craftsmanship. Check Freq 2 versus one sampled indicator. Reference: 12/CMA.7 Annex paragraph 9; UNDRIP Article 31; UNESCO 2003 Convention Article 2(2)(e) is broader supporting context
+knowledge-participation,participatory development process,domain-reviewed,Keep as a participation attribute. Define observable criteria and categories; it is not a policy instrument type. Reference: Expert technical report Section III paragraphs 25 and 31; 12/CMA.7 paragraph 10
+knowledge-participation,"traditional, local and Indigenous Peoples’ knowledge and practices",domain-reviewed,"Recovered full phrase per domain review (the truncated extraction ""guided by traditional"" was excluded); decision-text phrase"
