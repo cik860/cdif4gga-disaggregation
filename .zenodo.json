@@ -1,0 +1,27 @@
+{
+ "title": "CDIF-for-GGA: candidate disaggregation vocabulary and 9a indicator mapping",
+ "upload_type": "dataset",
+ "description": "Candidate SKOS vocabulary of recurring disaggregation dimensions and values for the Global Goal on Adaptation indicators, with a field-by-field mapping of the ten expert-proposed water (9a) indicators into CDIF v1.1. Supplementary material for Fakhruddin & Choi, offered as candidate input to the UNFCCC Subsidiary Bodies' metadata work.",
+ "creators": [
+  {
+   "name": "Fakhruddin, Bapon",
+   "affiliation": "Green Climate Fund",
+   "orcid": "0000-0001-6904-6013"
+  },
+  {
+   "name": "Choi, Inkyung",
+   "affiliation": "Sungkyunkwan University"
+   "orcid": "0000-0001-5048-8516"
+  }
+ ],
+ "license": "cc-zero",
+ "version": "0.9.0",
+ "keywords": [
+  "Global Goal on Adaptation",
+  "SKOS",
+  "CDIF",
+  "disaggregation",
+  "climate adaptation indicators",
+  "FAIR"
+ ]
+}
